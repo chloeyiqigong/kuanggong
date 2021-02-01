@@ -1,0 +1,50 @@
+﻿生成启动时间为 2020/11/12 3:53:00。
+     1>项目“D:\Projects\ConsoleApplication19\ConsoleApplication19\ConsoleApplication19.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         F:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "黄金矿工.cpp"
+         黄金矿工.cpp
+     1>黄金矿工.cpp(82): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>黄金矿工.cpp(86): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>黄金矿工.cpp(225): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>黄金矿工.cpp(249): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>黄金矿工.cpp(252): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>黄金矿工.cpp(253): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>黄金矿工.cpp(254): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>黄金矿工.cpp(255): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>黄金矿工.cpp(258): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>黄金矿工.cpp(259): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>黄金矿工.cpp(262): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>黄金矿工.cpp(263): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>黄金矿工.cpp(264): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>黄金矿工.cpp(265): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>黄金矿工.cpp(283): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>黄金矿工.cpp(285): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>黄金矿工.cpp(291): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>黄金矿工.cpp(293): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>黄金矿工.cpp(299): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>黄金矿工.cpp(301): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>黄金矿工.cpp(307): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>黄金矿工.cpp(309): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>黄金矿工.cpp(343): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>黄金矿工.cpp(346): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>黄金矿工.cpp(383): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>黄金矿工.cpp(386): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /l"0x0409" /nologo /fo"Release\黄金矿工.res" "黄金矿工.rc" 
+       Link:
+         F:\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Projects\ConsoleApplication19\Release\黄金矿工.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Projects\ConsoleApplication19\Release\黄金矿工.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Projects\ConsoleApplication19\Release\黄金矿工.lib" /MACHINE:X86 /SAFESEH "Release\黄金矿工.res"
+         "Release\黄金矿工.obj"
+         正在生成代码
+         已完成代码的生成
+         ConsoleApplication19.vcxproj -> D:\Projects\ConsoleApplication19\Release\黄金矿工.exe
+     1>已完成生成项目“D:\Projects\ConsoleApplication19\ConsoleApplication19\ConsoleApplication19.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.90
